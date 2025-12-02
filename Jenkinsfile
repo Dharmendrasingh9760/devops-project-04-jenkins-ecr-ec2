@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        AWS_REGION     = 'us-east-1'
+        AWS_REGION     = 'ap-south-1'
         AWS_ACCOUNT_ID = '647800544853'
         ECR_REPO_NAME  = 'project04-node-app'
         EC2_HOST       = '3.238.252.101'
